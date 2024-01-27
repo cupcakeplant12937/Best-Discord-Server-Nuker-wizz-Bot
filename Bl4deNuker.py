@@ -1,4 +1,4 @@
-#made by Bl4deDev
+#made by bankk.edu
 
 import discord
 from discord.ext import commands
@@ -10,10 +10,10 @@ import asyncio
 token = "Paste Your Token Here"
 
 
-SPAM_CHANNEL =  ["Runned by Bl4deDev" , "Got Nuked Bitch" , "get ranned" , "You cant do anything" , "nuked by Bl4deDev " , "HAHAHAHAHAHHAHAHAHHAHA " , "Join us" ]
-SPAM_MESSAGE = ["@everyone Got Nuked by Bl4adeDEV https://github.com/Bl4deDEV" , " @everyone FUCKED LOL https://github.com/Bl4deDEV " ]
+SPAM_CHANNEL =  ["Runned by bankk.edu" , "Got Nuked Bitch" , "get ranned" , "You cant do anything" , "nuked by Bank " , "HAHAHAHAHAHHAHAHAHHAHA " , "discord.gg/minibloxia" ]
+SPAM_MESSAGE = ["@everyone Got Nuked by Bank ez kids" , " @everyone FUCKED LOL " 
 
-client = commands.Bot(command_prefix="$")
+client = commands.Bot(command_prefix="-")
 
 
 @client.event
@@ -22,9 +22,9 @@ async def on_ready():
    
 Nuker Bot ready to fuck 
 
-Support : https://github.com/Bl4deDEV
+Support : discord.gg/minibloxia
  ''')
-   await client.change_presence(activity=discord.Game(name="Bl4deDev on Github"))
+   await client.change_presence(activity=discord.Game(name="Bankk.edu on discord"))
 
 @client.command()
 @commands.is_owner()
